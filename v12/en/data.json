@@ -65,14 +65,14 @@
             "summary": 
 			{
                 "overviewName": "OVERVIEW",
-                "_overviewComment": "A short description of what happens in this tutorial, and an optional short explanation of the ACE concepts used in this tutorial if necessary for context. What background knowledge must the user have for this to make sense?",
+                "_overviewComment": "A short description of what happens in this tutorial, and an optional short explanation of the concepts used in this tutorial if necessary for context. What background knowledge must the user have for this to make sense?",
                 "sections": 
 				[
                     {
                         "section": "This tutorial demonstrates a simple message flow that is driven by a DatabaseInput node which is triggered when a new row is inserted into a DB2 database table. The DatabaseInput node communicates with the database through an ODBC connection which is configured as part of this tutorial."	
                     },
                     {
-                        "section": "The tutorial requires an ACE integration node owned server, or a standalone server. In IBM App Connect Enterprise, an application is a container for all the resources that are required to create a solution. This tutorial provides an application to hold the message flow. The instructions also describe how to create the DB2 database which is used by the scenario. This includes two database tables (an Application table named EMPLOYEES and an Event table named EVENTS) and a Database Trigger."
+                        "section": "The tutorial requires an integration node owned server, or a standalone server. In IBM App Connect Enterprise, an application is a container for all the resources that are required to create a solution. This tutorial provides an application to hold the message flow. The instructions also describe how to create the DB2 database which is used by the scenario. This includes two database tables (an Application table named EMPLOYEES and an Event table named EVENTS) and a Database Trigger."
                     }
                 ]
             },
