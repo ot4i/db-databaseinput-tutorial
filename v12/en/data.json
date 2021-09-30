@@ -256,7 +256,7 @@
                                             "details": "Return to your DB2 Command Window and make an insert into the EMPLOYEES table using this command:<br><code><span class='cmdname'>INSERT INTO MYSCHEMA.EMPLOYEES (PKEY, FIRSTNAME, LASTNAME, COUNTRY) VALUES (1, 'Ben', 'Thompson', 'GB')</span></code>"
                                         },
                                         {
-                                            "details": "Click the View Path icon <img src='http://ot4i.github.io/ot4i.tutorials//dist/images/icons/iib/viewPath.png' alt='' /> to show the path taken through the message flow. This should show a green line highlighting that the DatabaseInput node propagated data to the FileOutput node."
+                                            "details": "Click the View Path icon <img src='http://ot4i.github.io/ot4i.tutorials//dist/images/icons/iib/viewPath.png' alt='' /> to show the path taken through the message flow. This should show a blue line highlighting that the DatabaseInput node propagated data to the FileOutput node."
                 				        		},	
 										{
                                             "details": "Check the output directory <span class='resource'>C:\\temp</span> and you should find an output file named <span class='resource'>Output.xml</span> has been created which contains this data:<br><span class='resource'>&lt;NS1:EMPLOYEES xmlns:NS1=\"http://users/myschema\"&gt;&lt;PKEY&gt;1&lt;/PKEY&gt;&lt;FIRSTNAME&gt;Ben&lt;/FIRSTNAME&gt;&lt;LASTNAME&gt;Thompson&lt;/LASTNAME&gt;&lt;COUNTRY&gt;GB&lt;/COUNTRY&gt;&lt;/NS1:EMPLOYEES&gt;</span>"											
